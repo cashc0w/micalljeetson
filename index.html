@@ -168,26 +168,46 @@
         <p>&#169;All rights reserved-Micall Jeetson 2024</p>
 
         <script>
-            function sing1(){
-                document.querySelectorAll('audio').forEach(el => el.pause());
-                var sound =document.getElementById('beatit');
+            function sing1() {
+            document.querySelectorAll('audio').forEach(el => el.pause());
+            var sound = document.getElementById('beatit');
+            if (sound.paused) {
+                sound.currentTime = 0
                 sound.play();
+            } else {
+                sound.currentTime = 0
             }
-            function sing2(){
-                sdocument.querySelectorAll('audio').forEach(el => el.pause());
-                var sound =document.getElementById('heehee');
+        }
+        function sing2() {
+            document.querySelectorAll('audio').forEach(el => el.pause());
+            var sound = document.getElementById('heehee');
+            if (sound.paused) {
+                sound.currentTime = 0
                 sound.play();
+            } else {
+                sound.currentTime = 0
             }
-            function sing3(){
-                document.querySelectorAll('audio').forEach(el => el.pause());
-                var sound =document.getElementById('billie');
+        }
+        function sing3() {
+            document.querySelectorAll('audio').forEach(el => el.pause());
+            var sound = document.getElementById('billie');
+            if (sound.paused) {
+                sound.currentTime = 0
                 sound.play();
+            } else {
+                sound.currentTime = 0
             }
-            function sing4(){
-                document.querySelectorAll('audio').forEach(el => el.pause());
-                var sound =document.getElementById('shamone');
+        }
+        function sing4() {
+            document.querySelectorAll('audio').forEach(el => el.pause());
+            var sound = document.getElementById('shamone');
+            if (sound.paused) {
+                sound.currentTime = 0
                 sound.play();
+            } else {
+                sound.currentTime = 0
             }
+        }
         </script>
     </body>
 </html>
