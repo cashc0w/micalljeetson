@@ -169,18 +169,22 @@
 
         <script>
             function sing1(){
-                var sound =document.getElementById('heehee');
-                sound.play();
-            }
-            function sing2(){
+                document.querySelectorAll('audio').forEach(el => el.pause());
                 var sound =document.getElementById('beatit');
                 sound.play();
             }
+            function sing2(){
+                sdocument.querySelectorAll('audio').forEach(el => el.pause());
+                var sound =document.getElementById('heehee');
+                sound.play();
+            }
             function sing3(){
+                document.querySelectorAll('audio').forEach(el => el.pause());
                 var sound =document.getElementById('billie');
                 sound.play();
             }
             function sing4(){
+                document.querySelectorAll('audio').forEach(el => el.pause());
                 var sound =document.getElementById('shamone');
                 sound.play();
             }
